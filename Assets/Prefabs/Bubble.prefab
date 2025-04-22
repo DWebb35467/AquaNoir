@@ -148,3 +148,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 3586078746219104010}
   bubbleSpeed: 20
+  hit: {fileID: 8300000, guid: ee00f2cd27a8f1145b749deb2a584683, type: 3}

@@ -24,6 +24,10 @@ public class DetectorAndGate : MonoBehaviour
     //object list that contains all objects in the detector
     private List<GameObject> objects = new List<GameObject>();
 
+    //audio variables
+    [SerializeField] private AudioClip detectorPress;
+    [SerializeField] private AudioClip gateSound;
+
     /// <summary>
     /// Assigns variables on game start and opens/closes the gate depending on its starting variable.
     /// </summary>
@@ -74,8 +78,10 @@ public class DetectorAndGate : MonoBehaviour
         {
             if (activated == false)
             {
+                AudioSource.PlayClipAtPoint(detectorPress, transform.position);
                 open = !open;
                 gate.SetActive(!open);
+                AudioSource.PlayClipAtPoint(gateSound, gate.transform.position);
                 activated = true;
             }
         }
@@ -86,6 +92,7 @@ public class DetectorAndGate : MonoBehaviour
             {
                 open = !open;
                 gate.SetActive(!open);
+                AudioSource.PlayClipAtPoint(gateSound, gate.transform.position);
                 activated = false;
             }
         }

@@ -91,7 +91,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1882918314002419757}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c42b9577300fedc4a8f405964057abce, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -173,6 +173,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   open: 0
   gate: {fileID: 1882918314002419757}
+  detectorPress: {fileID: 8300000, guid: de95b3a95e4a7e8498ff197fd7d3e6bc, type: 3}
+  gateSound: {fileID: 8300000, guid: 8bafe1635bcf09a4d898669ae8ceb262, type: 3}
 --- !u!1 &4372197293777130107
 GameObject:
   m_ObjectHideFlags: 0
@@ -298,7 +300,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8717761434364801531}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c42b9577300fedc4a8f405964057abce, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0

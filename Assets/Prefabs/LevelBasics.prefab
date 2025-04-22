@@ -1803,10 +1803,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1
-  m_Height: 2.2
+  m_Radius: 0.8
+  m_Height: 2.3
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.2, z: 0}
 --- !u!65 &780474798496966522
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1826,8 +1826,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.4, y: 1, z: 1.4}
-  m_Center: {x: 0, y: 0.5, z: 0}
+  m_Size: {x: 1.13, y: 1, z: 1.13}
+  m_Center: {x: 0, y: 0.55, z: 0}
 --- !u!1 &7886564214514821829
 GameObject:
   m_ObjectHideFlags: 0
@@ -2145,6 +2145,7 @@ MonoBehaviour:
   bubble: {fileID: 4950178696988893011, guid: 3c06e5ec74f0b4844a82f5524f2c56e5, type: 3}
   shootPoint: {fileID: 1074800366724196430}
   shootDelay: 0.1
+  shoot: {fileID: 8300000, guid: b2a1a28d974966d449520f7dc0692a65, type: 3}
   pauseMenu: {fileID: 7886564214514821829}
 --- !u!114 &7314971374223985591
 MonoBehaviour:
@@ -2159,6 +2160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthText: {fileID: 6443336834082025391}
+  hit: {fileID: 8300000, guid: ee00f2cd27a8f1145b749deb2a584683, type: 3}
 --- !u!1 &9043683834779957213
 GameObject:
   m_ObjectHideFlags: 0

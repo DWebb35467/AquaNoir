@@ -32,6 +32,9 @@ public class Pufferfish : MonoBehaviour
     //Raycast variables
     [SerializeField] private LayerMask layerName;
 
+    //audio variable
+    [SerializeField] private AudioClip hit;
+
     /// <summary>
     /// Start is called before the first frame update. It sets all the starting variables values.
     /// </summary>
@@ -76,6 +79,7 @@ public class Pufferfish : MonoBehaviour
         if (other.transform.name == "Bubble(Clone)" )
         {
             shrunkTimer = shrunkTime;
+            AudioSource.PlayClipAtPoint(hit, transform.position);
 
             if (shrunk == false)
             {

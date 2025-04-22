@@ -24,6 +24,10 @@ public class ButtonAndGate : MonoBehaviour
     //gate object variable
     [SerializeField] private GameObject gate;
 
+    //audio variables
+    [SerializeField] private AudioClip buttonPress;
+    [SerializeField] private AudioClip gateSound;
+
     /// <summary>
     /// At the start of the game opens/closes the gate depending on its starting variable.
     /// </summary>
@@ -65,9 +69,11 @@ public class ButtonAndGate : MonoBehaviour
     {
         if (isRunning == false)
         {
+            AudioSource.PlayClipAtPoint(buttonPress, transform.position);
             isRunning = true;
             open = !open;
             gate.SetActive(!open);
+            AudioSource.PlayClipAtPoint(gateSound, gate.transform.position);
             StartCoroutine(ButtonTimer());
         }
     }
@@ -87,6 +93,7 @@ public class ButtonAndGate : MonoBehaviour
             {
                 open = !open;
                 gate.SetActive(!open);
+                AudioSource.PlayClipAtPoint(gateSound, gate.transform.position);
                 isRunning = false;
             }
         }

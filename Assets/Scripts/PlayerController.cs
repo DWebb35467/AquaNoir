@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.HID;
 
 public class PlayerController : MonoBehaviour
 {
@@ -39,6 +40,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform shootPoint;
     [SerializeField] private float shootDelay;
     private bool isShooting = false;
+
+    //audio variable
+    [SerializeField] private AudioClip shoot;
 
     //pause menu variable
     [SerializeField] private GameObject pauseMenu;
@@ -100,6 +104,7 @@ public class PlayerController : MonoBehaviour
     {
         while (isShooting == true)
         {
+            AudioSource.PlayClipAtPoint(shoot, transform.position);
             Instantiate(bubble, shootPoint.position, playerCam.transform.rotation);
             yield return new WaitForSeconds(shootDelay);
         }

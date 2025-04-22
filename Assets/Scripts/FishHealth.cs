@@ -14,6 +14,9 @@ public class FishHealth : MonoBehaviour
     //health variable
     [SerializeField] int health;
 
+    //audio variable
+    [SerializeField] private AudioClip hit;
+
     /// <summary>
     /// When the fish is hit by one of the players bubbles they will lose 1 health and once they run out they are
     /// destroyed.
@@ -24,6 +27,7 @@ public class FishHealth : MonoBehaviour
         if (other.transform.name == "Bubble(Clone)")
         {
             health--;
+            AudioSource.PlayClipAtPoint(hit, transform.position);
 
             if (health < 0)
             {

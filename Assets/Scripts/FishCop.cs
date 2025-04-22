@@ -31,6 +31,9 @@ public class FishCop : MonoBehaviour
     private GameObject player;
     private bool canShoot;
 
+    //audio variable
+    [SerializeField] private AudioClip shoot;
+
     /// <summary>
     /// Sets all the starting variables on game start.
     /// </summary>
@@ -50,10 +53,13 @@ public class FishCop : MonoBehaviour
         if (canShoot == true)
         {
             canShoot = false;
+            AudioSource.PlayClipAtPoint(shoot, transform.position);
             Instantiate(bubble, fishBody.transform.position, fishBody.transform.rotation);
             yield return new WaitForSeconds(0.1f);
+            AudioSource.PlayClipAtPoint(shoot, transform.position);
             Instantiate(bubble, fishBody.transform.position, fishBody.transform.rotation);
             yield return new WaitForSeconds(0.1f);
+            AudioSource.PlayClipAtPoint(shoot, transform.position);
             Instantiate(bubble, fishBody.transform.position, fishBody.transform.rotation);
             yield return new WaitForSeconds(shootDelay);
             canShoot = true;
