@@ -666,12 +666,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '(Placeholder)
-
-
-    Sammy escapes the Lobster Tank. Now on the run in
-    the coral forest, he takes refugee in an old warehouse. Unluckly, for him, the
-    police caught up.'
+  m_text: "Chapter 3: Breakout\n\n\tJust by the the skin of his teeth\u2026 Wait,
+    that doesn't make sense here\u2026 Just by the tip of his claw, Sammy gets passed
+    the border of The Lobster Tank. Now on the run, Sammy finds himself running through
+    the rocky seafloor. He can hear the sirens of the police on their way. Just to
+    his luck, however, Sammy finds an old warehouse he could try to hide in. Things
+    don't really go as planned."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

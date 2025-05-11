@@ -179,7 +179,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Thanks for playing the beta!
+  m_text: Thanks for playing!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6a2fbc8c6b9f7d04bb16e7ffaa82e608, type: 2}
   m_sharedMaterial: {fileID: 4546390379318862587, guid: 6a2fbc8c6b9f7d04bb16e7ffaa82e608, type: 2}

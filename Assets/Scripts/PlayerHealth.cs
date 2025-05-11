@@ -30,11 +30,11 @@ public class PlayerHealth : MonoBehaviour
     {
         if (other.transform.name == "FishBubble(Clone)")
         {
-            health -= 5;
+            health -= 3;
             healthText.text = health.ToString();
             AudioSource.PlayClipAtPoint(hit, transform.position);
 
-            if (health < 0)
+            if (health <= 0)
             {
                 Death();
             }
@@ -54,7 +54,7 @@ public class PlayerHealth : MonoBehaviour
             healthText.text = health.ToString();
             AudioSource.PlayClipAtPoint(hit, transform.position);
 
-            if (health < 0)
+            if (health <= 0)
             {
                 Death();
             }

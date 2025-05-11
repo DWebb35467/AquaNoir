@@ -666,11 +666,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '(Placeholder)
-
-
-    Sammy finishes training and begins their first mission:
-    Robbing the fish food store.'
+  m_text: "Chapter 1: The First Mission\n\n\tMeet Sammy Shellfish, a lobster newly
+    recruited into the lobster mafia. His boss? It\u2019s his dad, Terrence Shellfish.
+    After rigorous training to join the mafia, Sammy proved himself ready to commit
+    crimes in New Reef City. Sammy readies his Tommy claw and prepares for his first
+    mission on the job. To rob the fish food store\u2026"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

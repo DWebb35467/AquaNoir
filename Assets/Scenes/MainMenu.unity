@@ -156,7 +156,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: 33}
+  m_AnchoredPosition: {x: 9, y: 57}
   m_SizeDelta: {x: 481.7637, y: 77.234}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &75169374
@@ -179,8 +179,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lobster claw by Beno\xEEt Rogez on sketchfab\n\nFish models by Quaternius
-    on poly.pizza\n\nMaterials by BUKKBEEK on Itch.io\n\nSound effects from Pixaby.com"
+  m_text: "Lobster claw by Beno\xEEt Rogez on sketchfab\n\nAll other models by Quaternius
+    on poly.pizza\n\nMaterials by BUKKBEEK on Itch.io\n\nSound effects & Music from
+    Pixaby.com\n\nEverything else by Dylan Webb"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

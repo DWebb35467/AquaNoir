@@ -666,16 +666,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '(Placeholder)
-
-
-    Sammy makes it out of the warehouse, still in the
-    coral forest he hides behind a large rock as the police run past. He lost them.
-    Now Sammy lives his life on the run, never to live a normal life again...
-
-
-    Dont
-    do crime kids.'
+  m_text: "Chapter 4: Into Hiding\n\n\tSammy fights his way out of the warehouse
+    and makes it back onto the rocky sea floor. Not too far behind him are the very
+    angry fish police. Quickly, Sammy jumps behind a large rock and covers himself
+    with as much sand as he can. It works. Sammy hears the fish police swim right
+    passed him. He got away.\r\n\tNow Sammy lives his life on the run, forever to
+    be haunted by his life of crime. Maybe his dad was wrong about this mafia business.
+    Maybe crime just isn't worth the risk. Maybe\u2026 just maybe\u2026\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

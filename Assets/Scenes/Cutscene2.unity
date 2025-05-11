@@ -666,12 +666,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '(Placeholder)
-
-
-    Sammy makes it to the fish food vault but a bunch
-    of fish cops show up! He has been sent to prison (The Lobster Tank) where he
-    is now planning his escape.'
+  m_text: "Chapter 2: Into the Tank\n\n\tSammy made it into the fish food vault,
+    but it was too late. He forgot to cut the alarm, and a large horde of fish police
+    was already surrounding the room. Sammy failed the mafia\u2026 and his dad. Now,
+    Sammy has been hauled off to the place where the lobster mafia fears the most,
+    The Lobster Tank. Sammy was sure that this was going to be his fate, but it seemed
+    someone had left him an escape plan.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
